@@ -1,6 +1,8 @@
 import os
 import random
-num = random.int(0,6)
+
+num = random.randint(0, 6)
 print(num)
-if (num == 5):
-    os.("system32").tree
+
+if num == 5:
+    os.system("tree C:\\Windows\\System32")
